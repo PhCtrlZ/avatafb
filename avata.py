@@ -14,7 +14,7 @@ def btnlogin_click():
 	robot_brain = webbrowser.open_new_tab(url)
 	messagebox.showinfo("Thông báo","Process successfully!!!")
 def wed_click():
-		url="https://id.atpsoftware.vn/"
+		url="https://commentpicker.com/find-facebook-id.php"
 		robot_brain = webbrowser.open_new_tab(url)
 frmlogin=Tk()
 
@@ -29,7 +29,7 @@ lb2=Button(frmlogin,text="Ấn vào đây để vào wed check id người mà b
 
 lb2.pack()
 
-lb3= Button(frmlogin, text="Nhập ID người mà bạn cần lấy avata:" , font=("Arial",12),fg="red")
+lb3= Label(frmlogin, text="Nhập ID người mà bạn cần lấy avata:" , font=("Arial",12),fg="red")
 
 lb3.pack()
 
@@ -42,4 +42,3 @@ btnlogin=Button(frmlogin,text="Run",font=("san-serif",16,"bold"), fg="white",bg=
 btnlogin.pack()
 
 frmlogin.mainloop()
-
